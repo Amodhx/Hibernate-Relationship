@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Data-Fetching.iml" filepath="$PROJECT_DIR$/Data-Fetching.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hibernate-Day02.iml" filepath="$PROJECT_DIR$/Hibernate-Day02.iml" />
       <module fileurl="file://$PROJECT_DIR$/many-to-many.iml" filepath="$PROJECT_DIR$/many-to-many.iml" />
       <module fileurl="file://$PROJECT_DIR$/one-to-many.iml" filepath="$PROJECT_DIR$/one-to-many.iml" />

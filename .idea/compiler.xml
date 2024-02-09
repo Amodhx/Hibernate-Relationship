@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="one-to-one" />
-        <module name="one-to-many" />
         <module name="many-to-many" />
+        <module name="one-to-many" />
+        <module name="Data-Fetching" />
       </profile>
     </annotationProcessing>
   </component>
