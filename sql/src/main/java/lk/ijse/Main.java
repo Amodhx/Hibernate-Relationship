@@ -25,12 +25,11 @@ public class Main {
         String address = "Panadura";
         Laptop laptop1 = new Laptop(1,"HP");
         Student student = new Student(id,name,address,laptop1);
-        String hql = "INSERT INTO Student (id, name, address,laptop) select ?1,?2,?3,?4 from Student ";
+        String hql = "INSERT INTO Student (id, name, address) select ?1,?2,?3 from Student ";
         Query query = session.createQuery(hql);
         query.setParameter(1,id);
         query.setParameter(2,name);
         query.setParameter(3,address);
-        query.setParameter(4,laptop1);
         int i = query.executeUpdate();
         System.out.println("Values  "+ i);
 
