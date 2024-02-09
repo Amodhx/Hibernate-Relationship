@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/Data-Fetching/pom.xml" />
         <option value="$PROJECT_DIR$/Data-Fetching-Eager/pom.xml" />
         <option value="$PROJECT_DIR$/Data-Fetching(Lazy)/pom.xml" />
+        <option value="$PROJECT_DIR$/sql/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />

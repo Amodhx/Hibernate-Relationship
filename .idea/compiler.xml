@@ -12,6 +12,7 @@
         <module name="many-to-many" />
         <module name="Data-Fetching-Eager" />
         <module name="one-to-many" />
+        <module name="sql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
