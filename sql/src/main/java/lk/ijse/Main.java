@@ -24,10 +24,12 @@ public class Main {
         String address = "Panadura";
 
         /*HQL insert query*/
-        Query query = session.createQuery("INSERT INTO Student (id, name, address) select ?1,?2,?3 from Student ");
-        query.setParameter(1,id);
-        query.setParameter(2,name);
-        query.setParameter(3,address);
+        String hql = "insert into Student (id,name,address,laptop)select VALUES(:value1,:value2,:value3,:value4)";
+        Query query = session.createQuery(hql);
+        query.setParameter("value1",id);
+        query.setParameter("value2",name);
+        query.setParameter("value3",address);
+        query.setParameter("value4",new Laptop());
         int i = query.executeUpdate();
         System.out.println("Values  "+ i);
 
